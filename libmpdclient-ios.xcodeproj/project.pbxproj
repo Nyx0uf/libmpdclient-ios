@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		43E89E8821CE6C320033E501 /* univseralLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 43E89E8921CE6C330033E501 /* Build configuration list for PBXAggregateTarget "univseralLib" */;
+			buildPhases = (
+				43E89E8C21CE6C380033E501 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = univseralLib;
+			productName = univseralLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		43E89DCD21CE63610033E501 /* libmpdclient_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DCC21CE63610033E501 /* libmpdclient_ios.m */; };
+		43E89DCE21CE63610033E501 /* libmpdclient_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43E89DCB21CE63610033E501 /* libmpdclient_ios.h */; };
+		43E89E1821CE646D0033E501 /* cmessage.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DDA21CE646A0033E501 /* cmessage.c */; };
+		43E89E1921CE646D0033E501 /* rdirectory.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DDC21CE646A0033E501 /* rdirectory.c */; };
+		43E89E1A21CE646D0033E501 /* async.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DDD21CE646A0033E501 /* async.c */; };
+		43E89E1B21CE646D0033E501 /* database.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DDE21CE646A0033E501 /* database.c */; };
+		43E89E1C21CE646D0033E501 /* ierror.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DDF21CE646A0033E501 /* ierror.c */; };
+		43E89E1D21CE646D0033E501 /* example.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DE021CE646A0033E501 /* example.c */; };
+		43E89E1E21CE646D0033E501 /* directory.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DE121CE646A0033E501 /* directory.c */; };
+		43E89E1F21CE646D0033E501 /* mount.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DE221CE646A0033E501 /* mount.c */; };
+		43E89E2021CE646D0033E501 /* entity.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DE321CE646A0033E501 /* entity.c */; };
+		43E89E2121CE646D0033E501 /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DE421CE646A0033E501 /* queue.c */; };
+		43E89E2221CE646D0033E501 /* send.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DE721CE646A0033E501 /* send.c */; };
+		43E89E2321CE646D0033E501 /* status.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DE921CE646A0033E501 /* status.c */; };
+		43E89E2421CE646D0033E501 /* cstats.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DEA21CE646A0033E501 /* cstats.c */; };
+		43E89E2521CE646D0033E501 /* coutput.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DEB21CE646A0033E501 /* coutput.c */; };
+		43E89E2621CE646D0033E501 /* output.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DEC21CE646A0033E501 /* output.c */; };
+		43E89E2721CE646D0033E501 /* response.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DED21CE646A0033E501 /* response.c */; };
+		43E89E2821CE646D0033E501 /* resolver.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DEF21CE646A0033E501 /* resolver.c */; };
+		43E89E2921CE646D0033E501 /* connection.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DF021CE646B0033E501 /* connection.c */; };
+		43E89E2A21CE646D0033E501 /* quote.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DF121CE646B0033E501 /* quote.c */; };
+		43E89E2B21CE646D0033E501 /* rplaylist.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DF221CE646B0033E501 /* rplaylist.c */; };
+		43E89E2C21CE646D0033E501 /* player.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DF321CE646B0033E501 /* player.c */; };
+		43E89E2D21CE646D0033E501 /* capabilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DF421CE646B0033E501 /* capabilities.c */; };
+		43E89E2E21CE646D0033E501 /* playlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DF521CE646B0033E501 /* playlist.c */; };
+		43E89E2F21CE646D0033E501 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DF821CE646B0033E501 /* error.c */; };
+		43E89E3021CE646D0033E501 /* search.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DF921CE646B0033E501 /* search.c */; };
+		43E89E3121CE646D0033E501 /* password.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DFA21CE646B0033E501 /* password.c */; };
+		43E89E3221CE646D0033E501 /* iso8601.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DFB21CE646B0033E501 /* iso8601.c */; };
+		43E89E3321CE646D0033E501 /* settings.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DFC21CE646B0033E501 /* settings.c */; };
+		43E89E3421CE646D0033E501 /* tag.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DFD21CE646B0033E501 /* tag.c */; };
+		43E89E3521CE646D0033E501 /* mixer.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DFE21CE646B0033E501 /* mixer.c */; };
+		43E89E3621CE646D0033E501 /* fd_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E0221CE646B0033E501 /* fd_util.c */; };
+		43E89E3721CE646D0033E501 /* message.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E0321CE646C0033E501 /* message.c */; };
+		43E89E3821CE646D0033E501 /* audio_format.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E0421CE646C0033E501 /* audio_format.c */; };
+		43E89E3921CE646D0033E501 /* idle.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E0521CE646C0033E501 /* idle.c */; };
+		43E89E3A21CE646D0033E501 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E0721CE646C0033E501 /* parser.c */; };
+		43E89E3B21CE646D0033E501 /* sync.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E0821CE646C0033E501 /* sync.c */; };
+		43E89E3C21CE646D0033E501 /* cmount.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E0A21CE646C0033E501 /* cmount.c */; };
+		43E89E3D21CE646D0033E501 /* cplaylist.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E0C21CE646C0033E501 /* cplaylist.c */; };
+		43E89E3E21CE646D0033E501 /* recv.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E0D21CE646C0033E501 /* recv.c */; };
+		43E89E3F21CE646D0033E501 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E0E21CE646C0033E501 /* list.c */; };
+		43E89E4021CE646D0033E501 /* kvlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E0F21CE646C0033E501 /* kvlist.c */; };
+		43E89E4121CE646D0033E501 /* cstatus.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E1121CE646D0033E501 /* cstatus.c */; };
+		43E89E4221CE646D0033E501 /* run.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E1221CE646D0033E501 /* run.c */; };
+		43E89E4321CE646D0033E501 /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E1321CE646D0033E501 /* socket.c */; };
+		43E89E4421CE646D0033E501 /* stats.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E1421CE646D0033E501 /* stats.c */; };
+		43E89E4521CE646D0033E501 /* sticker.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E1521CE646D0033E501 /* sticker.c */; };
+		43E89E4621CE646D0033E501 /* song.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89E1721CE646D0033E501 /* song.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43E89DC621CE63610033E501 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				43E89DCE21CE63610033E501 /* libmpdclient_ios.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		43E89DC821CE63610033E501 /* liblibmpdclient-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblibmpdclient-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E89DCB21CE63610033E501 /* libmpdclient_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libmpdclient_ios.h; sourceTree = "<group>"; };
+		43E89DCC21CE63610033E501 /* libmpdclient_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libmpdclient_ios.m; sourceTree = "<group>"; };
+		43E89DDA21CE646A0033E501 /* cmessage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cmessage.c; path = "libmpdclient-src/src/cmessage.c"; sourceTree = SOURCE_ROOT; };
+		43E89DDB21CE646A0033E501 /* uri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uri.h; path = "libmpdclient-src/src/uri.h"; sourceTree = SOURCE_ROOT; };
+		43E89DDC21CE646A0033E501 /* rdirectory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rdirectory.c; path = "libmpdclient-src/src/rdirectory.c"; sourceTree = SOURCE_ROOT; };
+		43E89DDD21CE646A0033E501 /* async.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = async.c; path = "libmpdclient-src/src/async.c"; sourceTree = SOURCE_ROOT; };
+		43E89DDE21CE646A0033E501 /* database.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = database.c; path = "libmpdclient-src/src/database.c"; sourceTree = SOURCE_ROOT; };
+		43E89DDF21CE646A0033E501 /* ierror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ierror.c; path = "libmpdclient-src/src/ierror.c"; sourceTree = SOURCE_ROOT; };
+		43E89DE021CE646A0033E501 /* example.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = example.c; path = "libmpdclient-src/src/example.c"; sourceTree = SOURCE_ROOT; };
+		43E89DE121CE646A0033E501 /* directory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = directory.c; path = "libmpdclient-src/src/directory.c"; sourceTree = SOURCE_ROOT; };
+		43E89DE221CE646A0033E501 /* mount.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mount.c; path = "libmpdclient-src/src/mount.c"; sourceTree = SOURCE_ROOT; };
+		43E89DE321CE646A0033E501 /* entity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = entity.c; path = "libmpdclient-src/src/entity.c"; sourceTree = SOURCE_ROOT; };
+		43E89DE421CE646A0033E501 /* queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = queue.c; path = "libmpdclient-src/src/queue.c"; sourceTree = SOURCE_ROOT; };
+		43E89DE521CE646A0033E501 /* run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = run.h; path = "libmpdclient-src/src/run.h"; sourceTree = SOURCE_ROOT; };
+		43E89DE621CE646A0033E501 /* socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = socket.h; path = "libmpdclient-src/src/socket.h"; sourceTree = SOURCE_ROOT; };
+		43E89DE721CE646A0033E501 /* send.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = send.c; path = "libmpdclient-src/src/send.c"; sourceTree = SOURCE_ROOT; };
+		43E89DE821CE646A0033E501 /* iasync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iasync.h; path = "libmpdclient-src/src/iasync.h"; sourceTree = SOURCE_ROOT; };
+		43E89DE921CE646A0033E501 /* status.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = status.c; path = "libmpdclient-src/src/status.c"; sourceTree = SOURCE_ROOT; };
+		43E89DEA21CE646A0033E501 /* cstats.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cstats.c; path = "libmpdclient-src/src/cstats.c"; sourceTree = SOURCE_ROOT; };
+		43E89DEB21CE646A0033E501 /* coutput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = coutput.c; path = "libmpdclient-src/src/coutput.c"; sourceTree = SOURCE_ROOT; };
+		43E89DEC21CE646A0033E501 /* output.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = output.c; path = "libmpdclient-src/src/output.c"; sourceTree = SOURCE_ROOT; };
+		43E89DED21CE646A0033E501 /* response.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = response.c; path = "libmpdclient-src/src/response.c"; sourceTree = SOURCE_ROOT; };
+		43E89DEE21CE646A0033E501 /* iaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iaf.h; path = "libmpdclient-src/src/iaf.h"; sourceTree = SOURCE_ROOT; };
+		43E89DEF21CE646A0033E501 /* resolver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = resolver.c; path = "libmpdclient-src/src/resolver.c"; sourceTree = SOURCE_ROOT; };
+		43E89DF021CE646B0033E501 /* connection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = connection.c; path = "libmpdclient-src/src/connection.c"; sourceTree = SOURCE_ROOT; };
+		43E89DF121CE646B0033E501 /* quote.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = quote.c; path = "libmpdclient-src/src/quote.c"; sourceTree = SOURCE_ROOT; };
+		43E89DF221CE646B0033E501 /* rplaylist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rplaylist.c; path = "libmpdclient-src/src/rplaylist.c"; sourceTree = SOURCE_ROOT; };
+		43E89DF321CE646B0033E501 /* player.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = player.c; path = "libmpdclient-src/src/player.c"; sourceTree = SOURCE_ROOT; };
+		43E89DF421CE646B0033E501 /* capabilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = capabilities.c; path = "libmpdclient-src/src/capabilities.c"; sourceTree = SOURCE_ROOT; };
+		43E89DF521CE646B0033E501 /* playlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = playlist.c; path = "libmpdclient-src/src/playlist.c"; sourceTree = SOURCE_ROOT; };
+		43E89DF621CE646B0033E501 /* resolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resolver.h; path = "libmpdclient-src/src/resolver.h"; sourceTree = SOURCE_ROOT; };
+		43E89DF721CE646B0033E501 /* internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = internal.h; path = "libmpdclient-src/src/internal.h"; sourceTree = SOURCE_ROOT; };
+		43E89DF821CE646B0033E501 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = error.c; path = "libmpdclient-src/src/error.c"; sourceTree = SOURCE_ROOT; };
+		43E89DF921CE646B0033E501 /* search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = search.c; path = "libmpdclient-src/src/search.c"; sourceTree = SOURCE_ROOT; };
+		43E89DFA21CE646B0033E501 /* password.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = password.c; path = "libmpdclient-src/src/password.c"; sourceTree = SOURCE_ROOT; };
+		43E89DFB21CE646B0033E501 /* iso8601.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = iso8601.c; path = "libmpdclient-src/src/iso8601.c"; sourceTree = SOURCE_ROOT; };
+		43E89DFC21CE646B0033E501 /* settings.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = settings.c; path = "libmpdclient-src/src/settings.c"; sourceTree = SOURCE_ROOT; };
+		43E89DFD21CE646B0033E501 /* tag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tag.c; path = "libmpdclient-src/src/tag.c"; sourceTree = SOURCE_ROOT; };
+		43E89DFE21CE646B0033E501 /* mixer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mixer.c; path = "libmpdclient-src/src/mixer.c"; sourceTree = SOURCE_ROOT; };
+		43E89DFF21CE646B0033E501 /* quote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = quote.h; path = "libmpdclient-src/src/quote.h"; sourceTree = SOURCE_ROOT; };
+		43E89E0021CE646B0033E501 /* ierror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ierror.h; path = "libmpdclient-src/src/ierror.h"; sourceTree = SOURCE_ROOT; };
+		43E89E0121CE646B0033E501 /* kvlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kvlist.h; path = "libmpdclient-src/src/kvlist.h"; sourceTree = SOURCE_ROOT; };
+		43E89E0221CE646B0033E501 /* fd_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fd_util.c; path = "libmpdclient-src/src/fd_util.c"; sourceTree = SOURCE_ROOT; };
+		43E89E0321CE646C0033E501 /* message.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = message.c; path = "libmpdclient-src/src/message.c"; sourceTree = SOURCE_ROOT; };
+		43E89E0421CE646C0033E501 /* audio_format.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = audio_format.c; path = "libmpdclient-src/src/audio_format.c"; sourceTree = SOURCE_ROOT; };
+		43E89E0521CE646C0033E501 /* idle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = idle.c; path = "libmpdclient-src/src/idle.c"; sourceTree = SOURCE_ROOT; };
+		43E89E0621CE646C0033E501 /* iso8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iso8601.h; path = "libmpdclient-src/src/iso8601.h"; sourceTree = SOURCE_ROOT; };
+		43E89E0721CE646C0033E501 /* parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parser.c; path = "libmpdclient-src/src/parser.c"; sourceTree = SOURCE_ROOT; };
+		43E89E0821CE646C0033E501 /* sync.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sync.c; path = "libmpdclient-src/src/sync.c"; sourceTree = SOURCE_ROOT; };
+		43E89E0921CE646C0033E501 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = "libmpdclient-src/src/buffer.h"; sourceTree = SOURCE_ROOT; };
+		43E89E0A21CE646C0033E501 /* cmount.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cmount.c; path = "libmpdclient-src/src/cmount.c"; sourceTree = SOURCE_ROOT; };
+		43E89E0B21CE646C0033E501 /* fd_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fd_util.h; path = "libmpdclient-src/src/fd_util.h"; sourceTree = SOURCE_ROOT; };
+		43E89E0C21CE646C0033E501 /* cplaylist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cplaylist.c; path = "libmpdclient-src/src/cplaylist.c"; sourceTree = SOURCE_ROOT; };
+		43E89E0D21CE646C0033E501 /* recv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = recv.c; path = "libmpdclient-src/src/recv.c"; sourceTree = SOURCE_ROOT; };
+		43E89E0E21CE646C0033E501 /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = list.c; path = "libmpdclient-src/src/list.c"; sourceTree = SOURCE_ROOT; };
+		43E89E0F21CE646C0033E501 /* kvlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kvlist.c; path = "libmpdclient-src/src/kvlist.c"; sourceTree = SOURCE_ROOT; };
+		43E89E1021CE646C0033E501 /* isend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = isend.h; path = "libmpdclient-src/src/isend.h"; sourceTree = SOURCE_ROOT; };
+		43E89E1121CE646D0033E501 /* cstatus.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cstatus.c; path = "libmpdclient-src/src/cstatus.c"; sourceTree = SOURCE_ROOT; };
+		43E89E1221CE646D0033E501 /* run.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = run.c; path = "libmpdclient-src/src/run.c"; sourceTree = SOURCE_ROOT; };
+		43E89E1321CE646D0033E501 /* socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = socket.c; path = "libmpdclient-src/src/socket.c"; sourceTree = SOURCE_ROOT; };
+		43E89E1421CE646D0033E501 /* stats.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stats.c; path = "libmpdclient-src/src/stats.c"; sourceTree = SOURCE_ROOT; };
+		43E89E1521CE646D0033E501 /* sticker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sticker.c; path = "libmpdclient-src/src/sticker.c"; sourceTree = SOURCE_ROOT; };
+		43E89E1621CE646D0033E501 /* sync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sync.h; path = "libmpdclient-src/src/sync.h"; sourceTree = SOURCE_ROOT; };
+		43E89E1721CE646D0033E501 /* song.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = song.c; path = "libmpdclient-src/src/song.c"; sourceTree = SOURCE_ROOT; };
+		43E89E4821CE647E0033E501 /* connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connection.h; sourceTree = "<group>"; };
+		43E89E4921CE647E0033E501 /* protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protocol.h; sourceTree = "<group>"; };
+		43E89E4A21CE647E0033E501 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		43E89E4B21CE647E0033E501 /* recv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recv.h; sourceTree = "<group>"; };
+		43E89E4C21CE647E0033E501 /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		43E89E4D21CE647E0033E501 /* song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = song.h; sourceTree = "<group>"; };
+		43E89E4E21CE647E0033E501 /* response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = response.h; sourceTree = "<group>"; };
+		43E89E4F21CE647E0033E501 /* status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = status.h; sourceTree = "<group>"; };
+		43E89E5021CE647E0033E501 /* tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tag.h; sourceTree = "<group>"; };
+		43E89E5121CE647E0033E501 /* compiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compiler.h; sourceTree = "<group>"; };
+		43E89E5221CE647E0033E501 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+		43E89E5321CE647E0033E501 /* version.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = version.h.in; sourceTree = "<group>"; };
+		43E89E5421CE647E0033E501 /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
+		43E89E5521CE647E0033E501 /* idle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idle.h; sourceTree = "<group>"; };
+		43E89E5621CE647E0033E501 /* message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = message.h; sourceTree = "<group>"; };
+		43E89E5721CE647E0033E501 /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		43E89E5821CE647E0033E501 /* output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = output.h; sourceTree = "<group>"; };
+		43E89E5921CE647E0033E501 /* mixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mixer.h; sourceTree = "<group>"; };
+		43E89E5A21CE647E0033E501 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		43E89E5B21CE647E0033E501 /* async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = async.h; sourceTree = "<group>"; };
+		43E89E5C21CE647E0033E501 /* directory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = directory.h; sourceTree = "<group>"; };
+		43E89E5D21CE647E0033E501 /* database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = database.h; sourceTree = "<group>"; };
+		43E89E5E21CE647E0033E501 /* entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entity.h; sourceTree = "<group>"; };
+		43E89E5F21CE647E0033E501 /* pair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pair.h; sourceTree = "<group>"; };
+		43E89E6021CE647E0033E501 /* send.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = send.h; sourceTree = "<group>"; };
+		43E89E6121CE647E0033E501 /* password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = password.h; sourceTree = "<group>"; };
+		43E89E6221CE647E0033E501 /* audio_format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio_format.h; sourceTree = "<group>"; };
+		43E89E6321CE647E0033E501 /* mount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mount.h; sourceTree = "<group>"; };
+		43E89E6421CE647E0033E501 /* sticker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sticker.h; sourceTree = "<group>"; };
+		43E89E6521CE647E0033E501 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		43E89E6621CE647E0033E501 /* socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+		43E89E6721CE647E0033E501 /* stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stats.h; sourceTree = "<group>"; };
+		43E89E6821CE647E0033E501 /* capabilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = capabilities.h; sourceTree = "<group>"; };
+		43E89E6921CE647E0033E501 /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		43E89E6A21CE647E0033E501 /* playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playlist.h; sourceTree = "<group>"; };
+		43E89E6B21CE66040033E501 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = "libmpdclient-src/src/config.h"; sourceTree = SOURCE_ROOT; };
+		43E89E6C21CE68F00033E501 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = "libmpdclient-src/src/version.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43E89DC521CE63610033E501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43E89DBF21CE63610033E501 = {
+			isa = PBXGroup;
+			children = (
+				43E89DD621CE64100033E501 /* libmpdclient-src */,
+				43E89DCA21CE63610033E501 /* libmpdclient-ios */,
+				43E89DC921CE63610033E501 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43E89DC921CE63610033E501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43E89DC821CE63610033E501 /* liblibmpdclient-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43E89DCA21CE63610033E501 /* libmpdclient-ios */ = {
+			isa = PBXGroup;
+			children = (
+				43E89DCB21CE63610033E501 /* libmpdclient_ios.h */,
+				43E89DCC21CE63610033E501 /* libmpdclient_ios.m */,
+			);
+			path = "libmpdclient-ios";
+			sourceTree = "<group>";
+		};
+		43E89DD621CE64100033E501 /* libmpdclient-src */ = {
+			isa = PBXGroup;
+			children = (
+				43E89DD821CE64260033E501 /* include */,
+				43E89DD721CE64220033E501 /* src */,
+			);
+			name = "libmpdclient-src";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		43E89DD721CE64220033E501 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				43E89E6C21CE68F00033E501 /* version.h */,
+				43E89DDD21CE646A0033E501 /* async.c */,
+				43E89E0421CE646C0033E501 /* audio_format.c */,
+				43E89E0921CE646C0033E501 /* buffer.h */,
+				43E89DF421CE646B0033E501 /* capabilities.c */,
+				43E89DDA21CE646A0033E501 /* cmessage.c */,
+				43E89E0A21CE646C0033E501 /* cmount.c */,
+				43E89DF021CE646B0033E501 /* connection.c */,
+				43E89DEB21CE646A0033E501 /* coutput.c */,
+				43E89E0C21CE646C0033E501 /* cplaylist.c */,
+				43E89DEA21CE646A0033E501 /* cstats.c */,
+				43E89E1121CE646D0033E501 /* cstatus.c */,
+				43E89DDE21CE646A0033E501 /* database.c */,
+				43E89DE121CE646A0033E501 /* directory.c */,
+				43E89DE321CE646A0033E501 /* entity.c */,
+				43E89DF821CE646B0033E501 /* error.c */,
+				43E89DE021CE646A0033E501 /* example.c */,
+				43E89E0221CE646B0033E501 /* fd_util.c */,
+				43E89E0B21CE646C0033E501 /* fd_util.h */,
+				43E89DEE21CE646A0033E501 /* iaf.h */,
+				43E89DE821CE646A0033E501 /* iasync.h */,
+				43E89E0521CE646C0033E501 /* idle.c */,
+				43E89DDF21CE646A0033E501 /* ierror.c */,
+				43E89E0021CE646B0033E501 /* ierror.h */,
+				43E89DF721CE646B0033E501 /* internal.h */,
+				43E89E1021CE646C0033E501 /* isend.h */,
+				43E89DFB21CE646B0033E501 /* iso8601.c */,
+				43E89E0621CE646C0033E501 /* iso8601.h */,
+				43E89E0F21CE646C0033E501 /* kvlist.c */,
+				43E89E0121CE646B0033E501 /* kvlist.h */,
+				43E89E0E21CE646C0033E501 /* list.c */,
+				43E89E0321CE646C0033E501 /* message.c */,
+				43E89DFE21CE646B0033E501 /* mixer.c */,
+				43E89DE221CE646A0033E501 /* mount.c */,
+				43E89DEC21CE646A0033E501 /* output.c */,
+				43E89E0721CE646C0033E501 /* parser.c */,
+				43E89DFA21CE646B0033E501 /* password.c */,
+				43E89DF321CE646B0033E501 /* player.c */,
+				43E89DF521CE646B0033E501 /* playlist.c */,
+				43E89DE421CE646A0033E501 /* queue.c */,
+				43E89DF121CE646B0033E501 /* quote.c */,
+				43E89DFF21CE646B0033E501 /* quote.h */,
+				43E89DDC21CE646A0033E501 /* rdirectory.c */,
+				43E89E0D21CE646C0033E501 /* recv.c */,
+				43E89DEF21CE646A0033E501 /* resolver.c */,
+				43E89DF621CE646B0033E501 /* resolver.h */,
+				43E89DED21CE646A0033E501 /* response.c */,
+				43E89DF221CE646B0033E501 /* rplaylist.c */,
+				43E89E1221CE646D0033E501 /* run.c */,
+				43E89DE521CE646A0033E501 /* run.h */,
+				43E89DF921CE646B0033E501 /* search.c */,
+				43E89DE721CE646A0033E501 /* send.c */,
+				43E89DFC21CE646B0033E501 /* settings.c */,
+				43E89E1321CE646D0033E501 /* socket.c */,
+				43E89DE621CE646A0033E501 /* socket.h */,
+				43E89E1721CE646D0033E501 /* song.c */,
+				43E89E1421CE646D0033E501 /* stats.c */,
+				43E89DE921CE646A0033E501 /* status.c */,
+				43E89E1521CE646D0033E501 /* sticker.c */,
+				43E89E0821CE646C0033E501 /* sync.c */,
+				43E89E1621CE646D0033E501 /* sync.h */,
+				43E89DFD21CE646B0033E501 /* tag.c */,
+				43E89DDB21CE646A0033E501 /* uri.h */,
+				43E89E6B21CE66040033E501 /* config.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		43E89DD821CE64260033E501 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				43E89E4721CE647E0033E501 /* mpd */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		43E89E4721CE647E0033E501 /* mpd */ = {
+			isa = PBXGroup;
+			children = (
+				43E89E4821CE647E0033E501 /* connection.h */,
+				43E89E4921CE647E0033E501 /* protocol.h */,
+				43E89E4A21CE647E0033E501 /* error.h */,
+				43E89E4B21CE647E0033E501 /* recv.h */,
+				43E89E4C21CE647E0033E501 /* client.h */,
+				43E89E4D21CE647E0033E501 /* song.h */,
+				43E89E4E21CE647E0033E501 /* response.h */,
+				43E89E4F21CE647E0033E501 /* status.h */,
+				43E89E5021CE647E0033E501 /* tag.h */,
+				43E89E5121CE647E0033E501 /* compiler.h */,
+				43E89E5221CE647E0033E501 /* settings.h */,
+				43E89E5321CE647E0033E501 /* version.h.in */,
+				43E89E5421CE647E0033E501 /* parser.h */,
+				43E89E5521CE647E0033E501 /* idle.h */,
+				43E89E5621CE647E0033E501 /* message.h */,
+				43E89E5721CE647E0033E501 /* player.h */,
+				43E89E5821CE647E0033E501 /* output.h */,
+				43E89E5921CE647E0033E501 /* mixer.h */,
+				43E89E5A21CE647E0033E501 /* list.h */,
+				43E89E5B21CE647E0033E501 /* async.h */,
+				43E89E5C21CE647E0033E501 /* directory.h */,
+				43E89E5D21CE647E0033E501 /* database.h */,
+				43E89E5E21CE647E0033E501 /* entity.h */,
+				43E89E5F21CE647E0033E501 /* pair.h */,
+				43E89E6021CE647E0033E501 /* send.h */,
+				43E89E6121CE647E0033E501 /* password.h */,
+				43E89E6221CE647E0033E501 /* audio_format.h */,
+				43E89E6321CE647E0033E501 /* mount.h */,
+				43E89E6421CE647E0033E501 /* sticker.h */,
+				43E89E6521CE647E0033E501 /* search.h */,
+				43E89E6621CE647E0033E501 /* socket.h */,
+				43E89E6721CE647E0033E501 /* stats.h */,
+				43E89E6821CE647E0033E501 /* capabilities.h */,
+				43E89E6921CE647E0033E501 /* queue.h */,
+				43E89E6A21CE647E0033E501 /* playlist.h */,
+			);
+			name = mpd;
+			path = "libmpdclient-src/include/mpd";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43E89DC721CE63610033E501 /* libmpdclient-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E89DD121CE63610033E501 /* Build configuration list for PBXNativeTarget "libmpdclient-ios" */;
+			buildPhases = (
+				43E89DC421CE63610033E501 /* Sources */,
+				43E89DC521CE63610033E501 /* Frameworks */,
+				43E89DC621CE63610033E501 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libmpdclient-ios";
+			productName = "libmpdclient-ios";
+			productReference = 43E89DC821CE63610033E501 /* liblibmpdclient-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43E89DC021CE63610033E501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					43E89DC721CE63610033E501 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					43E89E8821CE6C320033E501 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 43E89DC321CE63610033E501 /* Build configuration list for PBXProject "libmpdclient-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43E89DBF21CE63610033E501;
+			productRefGroup = 43E89DC921CE63610033E501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43E89DC721CE63610033E501 /* libmpdclient-ios */,
+				43E89E8821CE6C320033E501 /* univseralLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43E89E8C21CE6C380033E501 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/fucking-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target libmpdclient-ios ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target libmpdclient-ios ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator -arch x86_64 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43E89DC421CE63610033E501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E89E3921CE646D0033E501 /* idle.c in Sources */,
+				43E89E3D21CE646D0033E501 /* cplaylist.c in Sources */,
+				43E89E3421CE646D0033E501 /* tag.c in Sources */,
+				43E89E3621CE646D0033E501 /* fd_util.c in Sources */,
+				43E89E1F21CE646D0033E501 /* mount.c in Sources */,
+				43E89E3721CE646D0033E501 /* message.c in Sources */,
+				43E89E4521CE646D0033E501 /* sticker.c in Sources */,
+				43E89E2721CE646D0033E501 /* response.c in Sources */,
+				43E89E2B21CE646D0033E501 /* rplaylist.c in Sources */,
+				43E89E3021CE646D0033E501 /* search.c in Sources */,
+				43E89E4421CE646D0033E501 /* stats.c in Sources */,
+				43E89E2421CE646D0033E501 /* cstats.c in Sources */,
+				43E89E2221CE646D0033E501 /* send.c in Sources */,
+				43E89E4221CE646D0033E501 /* run.c in Sources */,
+				43E89E4121CE646D0033E501 /* cstatus.c in Sources */,
+				43E89E2E21CE646D0033E501 /* playlist.c in Sources */,
+				43E89E1921CE646D0033E501 /* rdirectory.c in Sources */,
+				43E89E2321CE646D0033E501 /* status.c in Sources */,
+				43E89E1E21CE646D0033E501 /* directory.c in Sources */,
+				43E89E3E21CE646D0033E501 /* recv.c in Sources */,
+				43E89E2F21CE646D0033E501 /* error.c in Sources */,
+				43E89E2C21CE646D0033E501 /* player.c in Sources */,
+				43E89E2121CE646D0033E501 /* queue.c in Sources */,
+				43E89DCD21CE63610033E501 /* libmpdclient_ios.m in Sources */,
+				43E89E2021CE646D0033E501 /* entity.c in Sources */,
+				43E89E3121CE646D0033E501 /* password.c in Sources */,
+				43E89E3221CE646D0033E501 /* iso8601.c in Sources */,
+				43E89E2A21CE646D0033E501 /* quote.c in Sources */,
+				43E89E3A21CE646D0033E501 /* parser.c in Sources */,
+				43E89E1C21CE646D0033E501 /* ierror.c in Sources */,
+				43E89E4621CE646D0033E501 /* song.c in Sources */,
+				43E89E2D21CE646D0033E501 /* capabilities.c in Sources */,
+				43E89E4321CE646D0033E501 /* socket.c in Sources */,
+				43E89E3821CE646D0033E501 /* audio_format.c in Sources */,
+				43E89E3F21CE646D0033E501 /* list.c in Sources */,
+				43E89E3B21CE646D0033E501 /* sync.c in Sources */,
+				43E89E3C21CE646D0033E501 /* cmount.c in Sources */,
+				43E89E2921CE646D0033E501 /* connection.c in Sources */,
+				43E89E2821CE646D0033E501 /* resolver.c in Sources */,
+				43E89E2621CE646D0033E501 /* output.c in Sources */,
+				43E89E3321CE646D0033E501 /* settings.c in Sources */,
+				43E89E1A21CE646D0033E501 /* async.c in Sources */,
+				43E89E1B21CE646D0033E501 /* database.c in Sources */,
+				43E89E2521CE646D0033E501 /* coutput.c in Sources */,
+				43E89E3521CE646D0033E501 /* mixer.c in Sources */,
+				43E89E1821CE646D0033E501 /* cmessage.c in Sources */,
+				43E89E4021CE646D0033E501 /* kvlist.c in Sources */,
+				43E89E1D21CE646D0033E501 /* example.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43E89DCF21CE63610033E501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/libmpdclient-src/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43E89DD021CE63610033E501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/libmpdclient-src/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43E89DD221CE63610033E501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43E89DD321CE63610033E501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43E89E8A21CE6C330033E501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43E89E8B21CE6C330033E501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43E89DC321CE63610033E501 /* Build configuration list for PBXProject "libmpdclient-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E89DCF21CE63610033E501 /* Debug */,
+				43E89DD021CE63610033E501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E89DD121CE63610033E501 /* Build configuration list for PBXNativeTarget "libmpdclient-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E89DD221CE63610033E501 /* Debug */,
+				43E89DD321CE63610033E501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E89E8921CE6C330033E501 /* Build configuration list for PBXAggregateTarget "univseralLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E89E8A21CE6C330033E501 /* Debug */,
+				43E89E8B21CE6C330033E501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43E89DC021CE63610033E501 /* Project object */;
+}
