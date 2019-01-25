@@ -2,6 +2,6 @@ language: objective-c
 osx_image: xcode10.1
 xcode_project: libmpdclient-ios.xcodeproj
 xcode_scheme: libmpdclient-ios
-xcode_destination: platform=Generic iOS Device
+xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
 #script:
 #    - xcodebuild clean build -project libmpdclient-ios.xcodeproj -scheme libmpdclient-ios -destination "platform=iOS Simulator,name=iPhone 7,OS=10.3.1" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
