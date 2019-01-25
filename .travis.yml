@@ -1,4 +1,4 @@
-language: c
+language: objective-c
 osx_image: xcode10.1
 xcode_project: libmpdclient-ios.xcodeproj
 xcode_scheme: libmpdclient-ios
