@@ -21,6 +21,11 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		4330489923B12A1600AE8B69 /* partition.c in Sources */ = {isa = PBXBuildFile; fileRef = 4330489323B12A1500AE8B69 /* partition.c */; };
+		4330489A23B12A1600AE8B69 /* cpartition.c in Sources */ = {isa = PBXBuildFile; fileRef = 4330489423B12A1500AE8B69 /* cpartition.c */; };
+		4330489B23B12A1600AE8B69 /* fingerprint.c in Sources */ = {isa = PBXBuildFile; fileRef = 4330489523B12A1500AE8B69 /* fingerprint.c */; };
+		4330489C23B12A1600AE8B69 /* neighbor.c in Sources */ = {isa = PBXBuildFile; fileRef = 4330489623B12A1500AE8B69 /* neighbor.c */; };
+		4330489D23B12A1600AE8B69 /* cneighbor.c in Sources */ = {isa = PBXBuildFile; fileRef = 4330489723B12A1600AE8B69 /* cneighbor.c */; };
 		43E89DCD21CE63610033E501 /* libmpdclient_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DCC21CE63610033E501 /* libmpdclient_ios.m */; };
 		43E89DCE21CE63610033E501 /* libmpdclient_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43E89DCB21CE63610033E501 /* libmpdclient_ios.h */; };
 		43E89E1821CE646D0033E501 /* cmessage.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E89DDA21CE646A0033E501 /* cmessage.c */; };
@@ -86,6 +91,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4330489023B12A0200AE8B69 /* fingerprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fingerprint.h; sourceTree = "<group>"; };
+		4330489123B12A0200AE8B69 /* partition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = partition.h; sourceTree = "<group>"; };
+		4330489223B12A0200AE8B69 /* neighbor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = neighbor.h; sourceTree = "<group>"; };
+		4330489323B12A1500AE8B69 /* partition.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = partition.c; path = "libmpdclient-src/src/partition.c"; sourceTree = SOURCE_ROOT; };
+		4330489423B12A1500AE8B69 /* cpartition.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cpartition.c; path = "libmpdclient-src/src/cpartition.c"; sourceTree = SOURCE_ROOT; };
+		4330489523B12A1500AE8B69 /* fingerprint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fingerprint.c; path = "libmpdclient-src/src/fingerprint.c"; sourceTree = SOURCE_ROOT; };
+		4330489623B12A1500AE8B69 /* neighbor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = neighbor.c; path = "libmpdclient-src/src/neighbor.c"; sourceTree = SOURCE_ROOT; };
+		4330489723B12A1600AE8B69 /* cneighbor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cneighbor.c; path = "libmpdclient-src/src/cneighbor.c"; sourceTree = SOURCE_ROOT; };
+		4330489823B12A1600AE8B69 /* binary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = binary.h; path = "libmpdclient-src/src/binary.h"; sourceTree = SOURCE_ROOT; };
 		43E89DC821CE63610033E501 /* liblibmpdclient-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblibmpdclient-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E89DCB21CE63610033E501 /* libmpdclient_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libmpdclient_ios.h; sourceTree = "<group>"; };
 		43E89DCC21CE63610033E501 /* libmpdclient_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libmpdclient_ios.m; sourceTree = "<group>"; };
@@ -240,6 +254,12 @@
 		43E89DD721CE64220033E501 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				4330489823B12A1600AE8B69 /* binary.h */,
+				4330489723B12A1600AE8B69 /* cneighbor.c */,
+				4330489423B12A1500AE8B69 /* cpartition.c */,
+				4330489523B12A1500AE8B69 /* fingerprint.c */,
+				4330489623B12A1500AE8B69 /* neighbor.c */,
+				4330489323B12A1500AE8B69 /* partition.c */,
 				43E89E6C21CE68F00033E501 /* version.h */,
 				43E89DDD21CE646A0033E501 /* async.c */,
 				43E89E0421CE646C0033E501 /* audio_format.c */,
@@ -319,6 +339,9 @@
 		43E89E4721CE647E0033E501 /* mpd */ = {
 			isa = PBXGroup;
 			children = (
+				4330489023B12A0200AE8B69 /* fingerprint.h */,
+				4330489223B12A0200AE8B69 /* neighbor.h */,
+				4330489123B12A0200AE8B69 /* partition.h */,
 				43E89E4821CE647E0033E501 /* connection.h */,
 				43E89E4921CE647E0033E501 /* protocol.h */,
 				43E89E4A21CE647E0033E501 /* error.h */,
@@ -445,14 +468,17 @@
 				43E89E1F21CE646D0033E501 /* mount.c in Sources */,
 				43E89E3721CE646D0033E501 /* message.c in Sources */,
 				43E89E4521CE646D0033E501 /* sticker.c in Sources */,
+				4330489B23B12A1600AE8B69 /* fingerprint.c in Sources */,
 				43E89E2721CE646D0033E501 /* response.c in Sources */,
 				43E89E2B21CE646D0033E501 /* rplaylist.c in Sources */,
+				4330489923B12A1600AE8B69 /* partition.c in Sources */,
 				43E89E3021CE646D0033E501 /* search.c in Sources */,
 				43E89E4421CE646D0033E501 /* stats.c in Sources */,
 				43E89E2421CE646D0033E501 /* cstats.c in Sources */,
 				43E89E2221CE646D0033E501 /* send.c in Sources */,
 				43E89E4221CE646D0033E501 /* run.c in Sources */,
 				43E89E4121CE646D0033E501 /* cstatus.c in Sources */,
+				4330489C23B12A1600AE8B69 /* neighbor.c in Sources */,
 				43E89E2E21CE646D0033E501 /* playlist.c in Sources */,
 				43E89E1921CE646D0033E501 /* rdirectory.c in Sources */,
 				43E89E2321CE646D0033E501 /* status.c in Sources */,
@@ -460,7 +486,9 @@
 				43E89E3E21CE646D0033E501 /* recv.c in Sources */,
 				43E89E2F21CE646D0033E501 /* error.c in Sources */,
 				43E89E2C21CE646D0033E501 /* player.c in Sources */,
+				4330489D23B12A1600AE8B69 /* cneighbor.c in Sources */,
 				43E89E2121CE646D0033E501 /* queue.c in Sources */,
+				4330489A23B12A1600AE8B69 /* cpartition.c in Sources */,
 				43E89DCD21CE63610033E501 /* libmpdclient_ios.m in Sources */,
 				43E89E2021CE646D0033E501 /* entity.c in Sources */,
 				43E89E3121CE646D0033E501 /* password.c in Sources */,
@@ -612,6 +640,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -623,6 +652,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -634,6 +664,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -642,6 +673,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

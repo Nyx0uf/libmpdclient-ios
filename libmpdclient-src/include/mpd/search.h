@@ -1,5 +1,5 @@
 /* libmpdclient
-   (c) 2003-2018 The Music Player Daemon Project
+   (c) 2003-2019 The Music Player Daemon Project
    This project's homepage is: http://www.musicpd.org
 
    Redistribution and use in source and binary forms, with or without
@@ -90,6 +90,18 @@ mpd_search_db_songs(struct mpd_connection *connection, bool exact);
  */
 bool
 mpd_search_add_db_songs(struct mpd_connection *connection, bool exact);
+
+/**
+ * Search for songs in the database and adds the result to a playlist.
+ * Constraints may be specified with mpd_search_add_tag_constraint().
+ * Send the search command with mpd_search_commit().
+ *
+ * @param connection the connection to MPD
+ * @return true on success, false on error
+ */
+bool
+mpd_search_add_db_songs_to_playlist(struct mpd_connection *connection,
+				    const char *playlist_name);
 
 /**
  * Search for songs in the queue.
