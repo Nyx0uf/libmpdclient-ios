@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/Nyx0uf/libmpdclient-ios.svg?branch=master)](https://travis-ci.com/Nyx0uf/libmpdclient-ios)
-
 ### How to update :
 
 First you will need to install *meson* and *ninja*.
