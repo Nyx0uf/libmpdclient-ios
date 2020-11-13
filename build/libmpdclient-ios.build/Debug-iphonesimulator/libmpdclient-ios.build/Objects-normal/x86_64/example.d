@@ -25,13 +25,14 @@ dependencies: \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/partition.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/password.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/player.h \
+  /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/status.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/playlist.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/queue.h \
+  /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/replay_gain.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/response.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/search.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/send.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/settings.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/stats.h \
-  /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/status.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/sticker.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/src/version.h

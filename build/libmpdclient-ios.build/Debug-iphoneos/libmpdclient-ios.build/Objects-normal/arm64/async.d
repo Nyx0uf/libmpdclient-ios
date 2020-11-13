@@ -9,5 +9,4 @@ dependencies: \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/protocol.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/src/quote.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/src/socket.h \
-  /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/socket.h \
-  /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/src/binary.h
+  /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/socket.h

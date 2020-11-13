@@ -100,6 +100,8 @@
 		4330489623B12A1500AE8B69 /* neighbor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = neighbor.c; path = "libmpdclient-src/src/neighbor.c"; sourceTree = SOURCE_ROOT; };
 		4330489723B12A1600AE8B69 /* cneighbor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cneighbor.c; path = "libmpdclient-src/src/cneighbor.c"; sourceTree = SOURCE_ROOT; };
 		4330489823B12A1600AE8B69 /* binary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = binary.h; path = "libmpdclient-src/src/binary.h"; sourceTree = SOURCE_ROOT; };
+		4365C1A0255EDED500B8E926 /* replay_gain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = replay_gain.h; sourceTree = "<group>"; };
+		4365C1A1255EDEE300B8E926 /* replay_gain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = replay_gain.c; path = "libmpdclient-src/src/replay_gain.c"; sourceTree = SOURCE_ROOT; };
 		43E89DC821CE63610033E501 /* liblibmpdclient-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblibmpdclient-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E89DCB21CE63610033E501 /* libmpdclient_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libmpdclient_ios.h; sourceTree = "<group>"; };
 		43E89DCC21CE63610033E501 /* libmpdclient_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libmpdclient_ios.m; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 		43E89DD721CE64220033E501 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				4365C1A1255EDEE300B8E926 /* replay_gain.c */,
 				4330489823B12A1600AE8B69 /* binary.h */,
 				4330489723B12A1600AE8B69 /* cneighbor.c */,
 				4330489423B12A1500AE8B69 /* cpartition.c */,
@@ -339,6 +342,7 @@
 		43E89E4721CE647E0033E501 /* mpd */ = {
 			isa = PBXGroup;
 			children = (
+				4365C1A0255EDED500B8E926 /* replay_gain.h */,
 				4330489023B12A0200AE8B69 /* fingerprint.h */,
 				4330489223B12A0200AE8B69 /* neighbor.h */,
 				4330489123B12A0200AE8B69 /* partition.h */,
