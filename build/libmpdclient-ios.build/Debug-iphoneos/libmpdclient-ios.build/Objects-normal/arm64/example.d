@@ -1,10 +1,12 @@
 dependencies: \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/src/example.c \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/client.h \
+  /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/albumart.h \
+  /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/compiler.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/audio_format.h \
+  /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/src/binary.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/capabilities.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/recv.h \
-  /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/compiler.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/tag.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/connection.h \
   /Users/benjamin/projects/libmpdclient-ios/libmpdclient-src/include/mpd/protocol.h \
